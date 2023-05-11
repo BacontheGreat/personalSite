@@ -1,0 +1,64 @@
+body{
+    margin: 0px;
+    font-family: Roboto;
+    background-color: #FBA89A;
+}
+
+nav ul li{
+
+    list-style: none;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav{
+    background-color: black;
+    padding-top: 11px;
+    padding-bottom: 15px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: rgb(218, 218, 218);
+}
+
+
+.smallabout{
+    display: flex;
+    justify-content: space-around;
+}
+
+p{
+    color: #AE4D46;
+}
+
+h2{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    width: 1100px;
+    font-size: 50px;
+    color: #AE4D46;
+}
+
+td a{
+    color: #AE4D46;
+    text-decoration: none;
+}
+
+td a:hover{
+    color: #F56B61;
+}

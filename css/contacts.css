@@ -1,0 +1,119 @@
+body{
+    margin: 0px;
+    font-family: Roboto;
+    background-color: #FBA89A;
+}
+
+nav ul li{
+
+    list-style: none;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav{
+    background-color: black;
+    padding-top: 11px;
+    padding-bottom: 15px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: rgb(218, 218, 218);
+}
+
+
+.smallabout{
+    display: flex;
+    justify-content: space-around;
+}
+
+p{
+    color: #AE4D46;
+}
+
+h2{
+    font-size: 30px;
+    display: flex;
+    justify-content: left;
+}
+
+h3{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+#colOne{width: 30%;
+    padding: 10px;
+}
+#colTwo{width: 70%;
+    padding: 10px;
+}
+#colThree{
+    display: flex;
+
+
+}
+
+#colThree p{
+    padding-right: 74px;
+}
+
+#colThree textarea{
+    margin-top: 12px;
+    width:250px
+}
+
+form{
+    background-color: #F46B61;
+    width: 550px;
+    border-radius: 12px;
+    
+}
+
+form fieldset.ei label{
+    width: 130px;
+    display: block;
+    float: left;
+
+}
+input[type="text"], input[type="email"], select{
+    width:250px
+}
+
+input[type="text"], input[type="Phone"], select{
+    width:250px
+}
+
+input[type="contact"], select{
+    width:257px;
+    height: 24px;
+    
+}
+
+
+
+form input[type="submit"]{
+    cursor: pointer;
+    background-color: #5EB3F6;
+    border-radius: 5px;
+    border-color: white;
+    padding: 3px;
+    margin: 10px;
+    margin-left: 140px;
+}
+
+form p{
+    color: black;
+}
