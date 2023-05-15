@@ -67,13 +67,18 @@ h3{
 }
 
 #colThree p{
-    padding-right: 74px;
+    padding-right: 62px;
 }
 
 #colThree textarea{
     margin-top: 12px;
-    width:250px
+    width:252px;
+    padding-left: 0px;
+    margin-left: 0px;
+    
 }
+
+
 
 form{
     background-color: #F46B61;
