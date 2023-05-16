@@ -4,6 +4,11 @@ body{
     background-color: #FBA89A;
 }
 
+body::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+
 nav ul li{
 
     list-style: none;

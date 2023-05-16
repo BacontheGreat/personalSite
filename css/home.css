@@ -4,6 +4,11 @@ body{
     background-color: #FBA89A;
 }
 
+body::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+
 nav ul li{
 
     list-style: none;
@@ -40,10 +45,18 @@ nav a:hover{
 
 p{
     color: #AE4D46;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 h2{
     font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
     display: flex;
     justify-content: center;
 }
